@@ -16,6 +16,9 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'haml-rails'
 gem 'simple_form'
+
+gem 'surveyor', :git => 'https://github.com/HeHStudy/surveyor.git'
+
 group :development do
   gem 'better_errors'
   gem 'guard-bundler'
