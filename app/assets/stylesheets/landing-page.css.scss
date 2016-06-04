@@ -59,6 +59,9 @@ h6 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 @media(max-width:767px) {
@@ -160,11 +163,18 @@ h6 {
     }
 }
 
-footer {
+footer.landing_page {
     padding: 50px 0;
     background-color: #f8f8f8;
 }
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+//////my stuff
+//
+.start {
+    margin-top: 150px;
+
 }
