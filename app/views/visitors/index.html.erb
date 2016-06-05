@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand topnav" href="#">Doug Goldie's Rails Demonstrations</a>
+            <a class="navbar-brand topnav" href="#">Rails Code Examples</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -18,7 +18,7 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="intro-message">
-                    <h1>Rails Demonstrations</h1>
+                    <h1>Rails Code Examples</h1>
                     <br>
                     <h3>by Doug Goldie</h3>
                     <hr class="intro-divider">
@@ -50,18 +50,21 @@
                             <a href="https://twitter.com/codecauldron" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                         </li>
                         <li>
-                            <a href="https://github.com/dgoldie/ucsf_survey" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a href="https://github.com/dgoldie" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/douggoldie" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                         </li>
                     </ul>
                     <div class="start">
-                      <a class="btn btn-info btn-lg active" href="/surveys" role="button">Demonstration of Surveyor Gem</a>
-                      <br>
-                      <br>
-                      <br><br>
-                      <p class="btn btn-success btn-lg active">More to come...</p>
+                      <ul>
+                      <li>
+                      <span class="project">UCSF Surveyor Gem:</span>
+                      <a class="btn btn-info btn-lg active" href="/surveys" role="button"><i class="fa fa-eye fa-fw" aria-hidden="true"></i><span class="network-name">Demonstration</span></a>
+                      <a href="https://github.com/dgoldie/ucsf_survey" class="btn btn-success btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Source Code</span></a>
+                      </li>
+
+                      </ul>
                     </div>
                 </div>
                 
@@ -75,51 +78,59 @@
 <!-- /.intro-header -->
 
 <!-- Page Content -->
-
-<a  name="services"></a>
+<a  name="projects"></a>
 <div class="content-section-a">
-
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                <h2 class="section-heading">Ruby, Rails projects</h2>
+                <p class="lead">More projects coming...</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <%= image_tag("ror.svg.png", class: "img-responsive", size: "300") %>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.content-section-a -->
+<div class="content-section-b">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Elixir and Phoenix Projects</h2>
+                <p class="lead">Get the productivity of Rails with the scalability of Erlang!</p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <%= image_tag("elixir-flame.png", class: "img-responsive") %>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.content-section-b -->
+<div class="content-section-a">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Agile Coaching</h2>
+                <p class="lead"></p>
+                <p class="lead"></p>
             </div>
             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
               <%= image_tag("ipad.png", class: "img-responsive") %>
             </div>
         </div>
-
     </div>
     <!-- /.container -->
-
 </div>
-<!-- /.content-section-a -->
-
-<div class="content-section-b">
-
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                <hr class="section-heading-spacer">
-                <div class="clearfix"></div>
-                <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-            </div>
-            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                <%= image_tag("dog.png", class: "img-responsive") %>
-            </div>
-        </div>
-
-    </div>
-    <!-- /.container -->
-
-</div>
-<!-- /.content-section-b -->
-
+<!--
 <div class="content-section-a">
 
     <div class="container">
@@ -140,6 +151,7 @@
     <!-- /.container -->
 
 </div>
+
 <!-- /.content-section-a -->
 
 <a  name="contact"></a>
@@ -187,7 +199,7 @@
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
